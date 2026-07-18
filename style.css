@@ -124,10 +124,65 @@ button:hover{
 
     color:#222;
 
-    padding:80px 20px;
+    padding:100px 20px;
 
 }
 
 .hero.fade-out{
     opacity: 0;
+}
+
+.welcome-section{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.small-title{
+    font-size:.75rem;
+    letter-spacing: 4px;
+    color:#8c7355;
+    margin-bottom: 25px;
+
+}
+
+.welcome-section h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.welcome-text{
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1rem;
+
+}
+
+.couple-names{
+    margin-top:50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:4rem;
+
+}
+
+.and{
+
+    font-size:2rem;
+
+    margin:5px 0;
+
+    color:#8c7355;
+
 }
