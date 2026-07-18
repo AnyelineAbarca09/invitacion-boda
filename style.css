@@ -32,7 +32,7 @@ body{
             rgba(0,0,0,.55)
         ),
 
-        url("img/Sobrecito.jpeg");
+        url("img/sobrecito.PNG");
 
     background-size:cover;
 
@@ -116,16 +116,23 @@ button:hover{
 
 .invitation{
 
-    display:none;
+    display: none;
 
-    min-height:100vh;
+    min-height: 100vh;
 
-    background:#faf7f2;
+    background: #000;
 
-    color:#222;
+    color: white;
 
-    padding:100px 20px;
+    position: relative;
 
+    overflow: hidden;
+
+}
+
+.invitation.show{
+    display: flex;
+    flex-direction: column;
 }
 
 .hero.fade-out{
@@ -133,15 +140,27 @@ button:hover{
 }
 
 .welcome-section{
-    max-width: 700px;
-    margin: 0 auto;
+     min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
     text-align: center;
+
+    padding: 60px 20px;
+
+    background: #000;
 }
 
 .small-title{
     font-size:.75rem;
     letter-spacing: 4px;
-    color:#8c7355;
+    color:white;
     margin-bottom: 25px;
 
 }
@@ -183,6 +202,79 @@ button:hover{
 
     margin:5px 0;
 
-    color:#8c7355;
+    color:white;
+
+}
+
+.couple-photo{
+    width: 100%;
+
+    height: 100vh;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.couple-photo img{
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+.couple-photo::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 180px;
+
+    background: linear-gradient(
+
+        to bottom,
+
+        #000,
+
+        transparent
+
+    );
+
+    z-index: 1;
+
+}
+
+.couple-photo::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 250px;
+
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        #000
+    );
+
+    z-index: 1;
 
 }

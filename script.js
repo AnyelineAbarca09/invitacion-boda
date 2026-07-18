@@ -4,15 +4,15 @@ const portada = document.querySelector(".hero");
 
 const invitacion = document.querySelector(".invitation");
 
-boton.addEventListener("click", function(){
+boton.addEventListener("click", function () {
 
     portada.classList.add("fade-out");
 
-    setTimeout(function(){
+    setTimeout(function () {
 
         portada.style.display = "none";
 
-        invitacion.style.display = "block";
+        invitacion.classList.add("show");
 
     }, 1000);
 
