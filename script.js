@@ -4,6 +4,8 @@ const portada = document.querySelector(".hero");
 
 const invitacion = document.querySelector(".invitation");
 
+const itinerary = document.querySelector(".itinerary");
+
 boton.addEventListener("click", function () {
 
     portada.classList.add("fade-out");
@@ -13,6 +15,8 @@ boton.addEventListener("click", function () {
         portada.style.display = "none";
 
         invitacion.classList.add("show");
+
+        itinerary.style.display = "block";
 
     }, 1000);
 

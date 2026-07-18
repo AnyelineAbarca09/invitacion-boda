@@ -278,3 +278,129 @@ button:hover{
     z-index: 1;
 
 }
+
+.itinerary {
+
+    display: none ;
+    min-height: 100vh;
+
+    background: #000;
+
+    color: white;
+
+    padding: 100px 20px;
+
+    text-align: center;
+
+}
+
+.itinerary h2 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 4rem;
+
+    font-weight: 400;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+
+}
+
+.itinerary-date {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.7rem;
+
+    margin-bottom: 60px;
+
+}
+
+.location {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+}
+
+.location-icon {
+
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+
+}
+
+.location h3 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 2rem;
+
+    font-weight: 400;
+
+    margin-bottom: 8px;
+
+}
+
+.location p {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.2rem;
+
+}
+
+.qr-section {
+
+    margin-top: 35px;
+
+}
+
+.qr-section img {
+
+    width: 130px;
+
+    height: 130px;
+
+    object-fit: cover;
+
+}
+
+.qr-section p {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.1rem;
+
+    margin-top: 10px;
+
+}
+
+
+.schedule {
+
+    margin-top: 55px;
+
+}
+
+.clock-icon {
+
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+
+}
+
+.schedule p {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 1.5rem;
+
+    margin: 5px 0;
+
+}
